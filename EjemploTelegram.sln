@@ -9,11 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicio", "Servicio", "{CD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{1DAC7D9D-8450-4B0D-8693-6D994D3A529E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploTelegram.AccesoDatos", "EjemploTelegram.AccesoDatos\EjemploTelegram.AccesoDatos.csproj", "{77A822A8-FD4E-47CC-9632-47AC95A703B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploTelegram.AccesoDatos", "EjemploTelegram.AccesoDatos\EjemploTelegram.AccesoDatos.csproj", "{77A822A8-FD4E-47CC-9632-47AC95A703B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploTelegram.Shared", "EjemploTelegram.Shared\EjemploTelegram.Shared.csproj", "{E6BE0F64-EFCF-4498-9818-3ABD064373DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploTelegram.Shared", "EjemploTelegram.Shared\EjemploTelegram.Shared.csproj", "{E6BE0F64-EFCF-4498-9818-3ABD064373DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploTelegram.api", "EjemploTelegram.api\EjemploTelegram.api.csproj", "{0C3CC092-15CD-4838-9C09-D8E83EA4BBF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploTelegram.api", "EjemploTelegram.api\EjemploTelegram.api.csproj", "{0C3CC092-15CD-4838-9C09-D8E83EA4BBF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocio", "Negocio", "{7ADE34C3-D07E-4C34-A5FC-9C5A9E68052B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploTelegram.Negocio", "EjemploTelegram.Negocio\EjemploTelegram.Negocio.csproj", "{50CE2891-D436-4926-8E4D-FA841C42304D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,10 @@ Global
 		{0C3CC092-15CD-4838-9C09-D8E83EA4BBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C3CC092-15CD-4838-9C09-D8E83EA4BBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C3CC092-15CD-4838-9C09-D8E83EA4BBF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50CE2891-D436-4926-8E4D-FA841C42304D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50CE2891-D436-4926-8E4D-FA841C42304D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50CE2891-D436-4926-8E4D-FA841C42304D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50CE2891-D436-4926-8E4D-FA841C42304D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,7 @@ Global
 		{77A822A8-FD4E-47CC-9632-47AC95A703B4} = {A1D807D2-9C5A-4653-B709-4DBA931D27A3}
 		{E6BE0F64-EFCF-4498-9818-3ABD064373DB} = {1DAC7D9D-8450-4B0D-8693-6D994D3A529E}
 		{0C3CC092-15CD-4838-9C09-D8E83EA4BBF6} = {CD51E057-D3B6-423B-9537-70CA053A5D06}
+		{50CE2891-D436-4926-8E4D-FA841C42304D} = {7ADE34C3-D07E-4C34-A5FC-9C5A9E68052B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {679BA7FA-A4A5-422A-A31C-DFB2A88F0A41}
