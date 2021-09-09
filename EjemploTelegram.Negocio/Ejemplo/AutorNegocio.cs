@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace EjemploTelegram.Negocio.Ejemplo
 {
-    class AutorNegocio : IAutorNegocio
+    public class AutorNegocio : IAutorNegocio
     {
         private readonly AppDbContext db;
         public AutorNegocio(AppDbContext db)

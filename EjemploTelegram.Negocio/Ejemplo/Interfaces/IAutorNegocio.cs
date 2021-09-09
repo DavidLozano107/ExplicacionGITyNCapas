@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EjemploTelegram.Negocio.Ejemplo.Interfaces
 {
-    interface IAutorNegocio
+    public interface IAutorNegocio
     {
         Task<Autor> CrearAutor(Autor autor);
         Task<Autor> GetAutorById(int id);

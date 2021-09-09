@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EjemploTelegram.AccesoDatos\EjemploTelegram.AccesoDatos.csproj" />
+    <ProjectReference Include="..\EjemploTelegram.Negocio\EjemploTelegram.Negocio.csproj" />
     <ProjectReference Include="..\EjemploTelegram.Shared\EjemploTelegram.Shared.csproj" />
   </ItemGroup>
 

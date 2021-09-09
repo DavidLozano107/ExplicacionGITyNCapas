@@ -1,4 +1,6 @@
 using EjemploTelegram.AccesoDatos.BaseDeDatos;
+using EjemploTelegram.Negocio.Ejemplo;
+using EjemploTelegram.Negocio.Ejemplo.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -35,7 +37,7 @@ namespace EjemploTelegram.api
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "EjemploTelegram.api", Version = "v1" });
             });
 
-            
+            services.AddTransient<IAutorNegocio, AutorNegocio>();
 
         }
 
