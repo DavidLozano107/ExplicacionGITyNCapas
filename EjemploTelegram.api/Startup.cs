@@ -31,13 +31,14 @@ namespace EjemploTelegram.api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AppDbContext>(op => op.UseSqlServer(Configuration.GetConnectionString("defaultConnection")));
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "EjemploTelegram.api", Version = "v1" });
             });
 
             services.AddTransient<IAutorNegocio, AutorNegocio>();
+            services.AddTransient<IlibroNegocio, libroNegocio>();
 
         }
 
